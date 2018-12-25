@@ -296,14 +296,6 @@ Even though strong multicolinearity is still present this model should be useful
 
 <img src="https://latex.codecogs.com/png.latex?%5Cinline%20Overall%5C%20F%5C%20test%3A%5C%20F_*%20%3D%20%5Cfrac%7BMSR%7D%7BMSE%7D%20%3D%20%5Cfrac%7B2257.98%7D%7B5.03%7D%20%3D%20449.312%20%3E%20F%280.95%3B%206%2C%20435%29%20%3D%202.119%5C%20%28Reject%5C%20the%5C%20null%29" border="0"/>
 
-<table>
-<tr>
-<th> </th><th> Df </th><th> Sum Sq </th><th> Mean Sq </th><th> F value </th><th> Pr(>F) </th>
-</tr>
-<tr>
-<tr>
-</table>
-
 #### **_Table A9_**
 #### Final Model Estimates and Standard Errors
 | | Estimate | Std. Error | t value | Pr(>\|t\|) |
