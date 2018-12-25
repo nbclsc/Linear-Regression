@@ -1,6 +1,6 @@
 # Linear Regression Model For Diabetes Progression
 ### Materials and Methods
-  To analyze the data of diabetes progression with the ten covariates, including age `AGE`, sex `SEX`, body mass index `BMI`, average blood pressure `MAP`, and six blood serum measurements `TC`, `LDL`, `HDL`, `TCH`, `LTG`, and `GLU`, R software was utilized in generating least squares estimates.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To analyze the data of diabetes progression with the ten covariates, including age `AGE`, sex `SEX`, body mass index `BMI`, average blood pressure `MAP`, and six blood serum measurements `TC`, `LDL`, `HDL`, `TCH`, `LTG`, and `GLU`, R software was utilized in generating least squares estimates.
 ### Analysis
 
 We begin by fitting the full model:
