@@ -1,8 +1,8 @@
 # Linear Regression Model For Diabetes Progression
 
 ## [Problem](http://math.unm.edu/sites/default/files/files/qual-exams/Edit%20Past%20Qualifying%20Exams%20Page%20Past%20Qualifying%20Exams%20-%20Statistics/UNM_Stat_Exam_Qual_takehome_201301.pdf):
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ten baseline variables, age, sex, body mass index, average blood pressure, and six bloodserum measurements,  were obtained for each ofn= 442 diabetes patients,  as well asthe  response  of  interest,  a  quantitative  measure  of  disease  progression  one  year  afterbaseline1.  The first 20 observations are shown below, the variables are named:  age, sex,bmi, map, tc, ldl, hdl, tch, ltg, glu, and y.  Analyze the data.  Find a good predictivemodel for disease progression (y). This should include variable selection and examinationof residuals.  Discuss the results of the analysis in plain English.  Evaluate and addressthe potential for collinearity problems.
-["Data Link"]("http://www.stat.unm.edu/~erike/exams/UNM_Stat_Exam_Qual_takehome_201301_pr2-DATA_diabetes.txt")
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ten baseline variables, age, sex, body mass index, average blood pressure, and six blood serum measurements, were obtained for each of n= 442 diabetes patients, as well as the response of interest, a quantitative  measure of disease progression one year after baseline [1](https://projecteuclid.org/euclid.aos/1083178935). The first 20 observations are shown below, the variables are named: age, sex, bmi, map, tc, ldl, hdl, tch, ltg, glu, and y. Analyze the data. Find a good predictive model for disease progression (y). This should include variable selection and examination of residuals. Discuss the results of the analysis in plain English. Evaluate and address the potential for collinearity problems.
+["Data Link"](http://www.stat.unm.edu/~erike/exams/UNM_Stat_Exam_Qual_takehome_201301_pr2-DATA_diabetes.txt)
 
 ## Solution:
 
