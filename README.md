@@ -1,4 +1,11 @@
 # Linear Regression Model For Diabetes Progression
+
+## [Problem](http://math.unm.edu/sites/default/files/files/qual-exams/Edit%20Past%20Qualifying%20Exams%20Page%20Past%20Qualifying%20Exams%20-%20Statistics/UNM_Stat_Exam_Qual_takehome_201301.pdf):
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ten baseline variables, age, sex, body mass index, average blood pressure, and six bloodserum measurements,  were obtained for each ofn= 442 diabetes patients,  as well asthe  response  of  interest,  a  quantitative  measure  of  disease  progression  one  year  afterbaseline1.  The first 20 observations are shown below, the variables are named:  age, sex,bmi, map, tc, ldl, hdl, tch, ltg, glu, and y.  Analyze the data.  Find a good predictivemodel for disease progression (y). This should include variable selection and examinationof residuals.  Discuss the results of the analysis in plain English.  Evaluate and addressthe potential for collinearity problems.
+["Data Link"]("http://www.stat.unm.edu/~erike/exams/UNM_Stat_Exam_Qual_takehome_201301_pr2-DATA_diabetes.txt")
+
+## Solution:
+
 ### Materials and Methods
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To analyze the data of diabetes progression with the ten covariates, including age `AGE`, sex `SEX`, body mass index `BMI`, average blood pressure `MAP`, and six blood serum measurements `TC`, `LDL`, `HDL`, `TCH`, `LTG`, and `GLU`, R software was utilized in generating least squares estimates.
 ### Analysis
