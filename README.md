@@ -12,7 +12,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We begin by fitting the full model:
 
-<img src="http://latex.codecogs.com/gif.latex?Y=\beta_0+\beta_1 AGE+\beta_2 SEX+\beta_3 BMI+\beta_4 MAP+\beta_5 TC+\beta_6 LDL+ \beta_7 HDL + \beta_8 TCH + \beta_9 LTG + \beta_{10} GLU " border="0"/>
+<img src="https://latex.codecogs.com/gif.latex?%5Cinline%20Y%3D%5Cbeta_0&plus;%5Cbeta_1%5C%20AGE&plus;%5Cbeta_2%5C%20SEX&plus;%5Cbeta_3%5C%20BMI&plus;%5Cbeta_4%5C%20MAP&plus;%5Cbeta_5%5C%20TC&plus;%5Cbeta_6%5C%20LDL&plus;%20%5Cbeta_7%5C%20HDL%20&plus;%20%5Cbeta_8%5C%20TCH%20&plus;%20%5Cbeta_9%5C%20LTG%20&plus;%20%5Cbeta_%7B10%7D%5C%20GLU" border="0"/>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The scatterplots and correlations of the response versus the predictors show moderate linear relationships overall. As can be seen in [**_Table A1_**](#Table-A1), the predictor with the highest correlation is `BMI` (0.5864501) and the predictor least correlated with the response is `SEX` (0.043062). Looking at the correlations of the predictors amongst themselves it appears that most predictors are, moderately, well behaved with most correlations less than 0.55. The only exceptions are `LDL` with `TC` (0.896663), `HDL` with `TCH` (-0.73849), `LDL` with `TCH` (0.659817), and `LTG` with `TCH` (0.617859). These correlations are exceptionally high.
 
@@ -29,7 +29,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Even though strong multicolinearity is still present this model should be useful for prediction as long as the data being used for prediction follows the same kind of multicolinearity structure. Since prediction is of interest the Implementation of Ridge Regression was foregone, although it would be a helpful remedial measure for the persistence of multicolinearity.
 
 ### Appendix
-#### **_Table A1_**
+#### _Table A1_
 #### Correlation Matrix
 | | y | age | sex | bmi | map | tc | ldl | hdl | tch | ltg | glu |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |:---: |:---: |:---: |:---: | ---: |
@@ -45,7 +45,7 @@
 | **ltg** | 0.566 | 0.271 | 0.150 | 0.446 | 0.393 | 0.516 | 0.318 | -0.399 | 0.618 | 1.000 | 0.465 |
 | **glu** | 0.382 | 0.302 | 0.208 | 0.389 | 0.390 | 0.326 | 0.291 | -0.274 | 0.417 | 0.465 | 1.000 |
 
-#### **_Table A2_**
+#### _Table A2_
 #### Full Model Estimates and Standard Errors
 
 | | Estimate | Std. Error | t Value| Pr(>\|t\|) |
@@ -62,14 +62,14 @@
 | **tch** | 6.53383 | 5.95864 | 1.097 | 0.273459 |
 | **glu** | 0.28012 | 0.27331 | 1.025 | 0.30599 |
 
-#### **_Plot A3_**
+#### _Plot A3_
 #### Box-Cox Results
 ![box_cox_results](BoxCoxResults.png)
 
-#### **_Plot A4_**
+#### _Plot A4_
 ![box_cox_results](AddedValuePlots.png)
 
-#### **_Table A5_**
+#### _Table A5_
 #### Table of Significant Leverages
 <img src="https://latex.codecogs.com/png.latex?%5Cinline%20Decision%5C%20Criteria%3A%20observation%20%3E%20%5Cfrac%7B2p%7D%7Bn%7D%20%3D%20%5Cfrac%7B2%20%5Ctimes%207%7D%7B442%7D%20%3D%200.03167421" border="0"/>
 <table>
@@ -156,7 +156,7 @@
 </tr>
 </table>
 
-#### **_Table A6_**
+#### _Table A6_
 #### Table of Significant DFFITS
 <img src="https://latex.codecogs.com/png.latex?%5Cinline%20Decision%5C%20Criteria%3A%20observation%20%3E%202%20%5Csqrt%7B%5Cfrac%7Bp%7D%7Bn%7D%7D%20%3D%202%20%5Csqrt%7B%5Cfrac%7B7%7D%7B442%7D%7D%20%3D%200.2516911" border="0"/>
 <table>
@@ -184,7 +184,7 @@
 </tr>
 </table>
 
-#### **_Table A7_**
+#### _Table A7_
 ####  DFBETAS for Predictors
 <img src="https://latex.codecogs.com/png.latex?%5Cinline%20Decision%5C%20Criteria%3A%20%7C%20observation%20%7C%20%3E%20%5Cfrac%7B2%7D%7B%5Csqrt%7Bn%7D%7D%20%3D%20%5Cfrac%7B2%7D%7B%5Csqrt%7B442%7D%7D%20%3D%200.0951303" border="0"/>
 <table >
@@ -289,7 +289,7 @@
 </tr>
 </table>
 
-#### **_Table A8_**
+#### _Table A8_
 #### Final Model: ANOVA Table
 | | Df | Sum Sq | Mean Sq | F value | Pr(>F) |
 | :--- | ---: | ---: | ---: | ---: | ---: |
@@ -304,7 +304,7 @@
 
 <img src="https://latex.codecogs.com/png.latex?%5Cinline%20Overall%5C%20F%5C%20test%3A%5C%20F_*%20%3D%20%5Cfrac%7BMSR%7D%7BMSE%7D%20%3D%20%5Cfrac%7B2257.98%7D%7B5.03%7D%20%3D%20449.312%20%3E%20F%280.95%3B%206%2C%20435%29%20%3D%202.119%5C%20%28Reject%5C%20the%5C%20null%29" border="0"/>
 
-#### **_Table A9_**
+#### _Table A9_
 #### Final Model Estimates and Standard Errors
 | | Estimate | Std. Error | t value | Pr(>\|t\|) |
 | :--- | ---: | ---: | ---: | ---: |
@@ -316,7 +316,7 @@
 | **ldl** | 0 | 0.00953 | 4.223 | 2.94E-05 |
 | **ltg** | 3.2 | 0.30303 | 10.489 | < 2.00E-16 |
 
-#### **_Table A10_**
+#### _Table A10_
 #### Variance Inflation Factor (VIF)
 | sex | bmi | map | tc | ldl | ltg |
 | :---: | :---: | :---: | :---: | :---: | :---: |
